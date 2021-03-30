@@ -1,0 +1,3 @@
+include ':viewstate'
+include ':app'
+rootProject.name = "ViewState"
