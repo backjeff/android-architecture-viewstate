@@ -57,7 +57,7 @@ interface ViewStateListener {
         }
     }
 
-    suspend fun <T> LiveData<ViewState<T>>.onPostValue(
+    fun <T> LiveData<ViewState<T>>.onPostValue(
         lifecycleOwner: LifecycleOwner,
         onError: ((Throwable) -> Unit)? = null,
         onLoading: (() -> Unit)? = null,

@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'com.github.backjeff'
-version = '1.0.4'
+version = '1.0.1'
 
 android {
     compileSdkVersion 30
@@ -15,8 +15,8 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 4
-        versionName "1.0.4"
+        versionCode 1
+        versionName "1.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
